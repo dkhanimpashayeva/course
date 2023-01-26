@@ -1,0 +1,41 @@
+nav {
+  width: 90%;
+  margin: 0% auto;
+  padding: 30px;
+  .nav-left-side{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px 0;
+
+    width: 80%;
+    .nav-logo{
+        span{
+            font-weight: 700;
+            font-size: 30px;
+        }
+    }
+    .nav-link{
+        a{
+            text-decoration: none;
+        color:gray;
+        font-weight: 600;
+
+        margin-left: 20px;
+        &:hover{
+            color:#FFB606;
+        }
+        }
+    }
+  }
+  .nav-phone{
+    width: 20%;
+    background-color: #FFB606;
+        padding: 40px 0;
+        span{
+            margin-left: 30px;
+            color: white;
+            font-weight: 600;
+        }
+    
+  }
+
+}

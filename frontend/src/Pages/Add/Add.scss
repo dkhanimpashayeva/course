@@ -1,0 +1,30 @@
+
+.addForm{
+form{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+border: 1px solid;
+width: 40%;
+margin: 0% auto;
+padding: 10px 0;
+background-color: #FFB606;
+border-radius: 10px;
+border: none;
+p{
+    color:red;
+    font-size: 13px;
+}
+input{
+    outline: none;
+    margin: 20px 0;
+    border-radius: 10px;
+    width: 50%;
+    padding: 5px ;
+  border: none;
+}
+}
+
+
+}  

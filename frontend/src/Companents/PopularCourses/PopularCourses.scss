@@ -1,0 +1,43 @@
+.courses {
+  button {
+    border: none;
+    color: white;
+    background-color: #30377d;
+    padding: 5px 25px;
+    font-weight: 600;
+  }
+  &-title {
+    text-align: center;
+    margin: 30px 0;
+    hr {
+      background-color: #ffb606;
+      width: 30px;
+      height: 3px;
+    }
+  }
+  .card {
+    text-align: center;
+    margin: 40px 0;
+    h5{
+        font-weight: 700;
+    }
+    .card-img-top {
+      width: 100%;
+      object-fit: cover;
+      
+    }
+    .card-body {
+        
+        .card-body-img {
+            border-radius: 50%;
+          }
+        .price {
+          background: #ffb606;
+          color: white;
+         width: 50%;
+     
+        }
+      
+      }
+  }
+}
