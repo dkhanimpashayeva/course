@@ -1,4 +1,20 @@
 .courses {
+  padding: 40px 0;
+  text-align: center;
+  .courses-title{
+    padding: 30px 0;
+    text-align: center;
+    h2{
+        font-size: 600;
+        font-size: 30px;
+    }
+    hr{
+        background-color: #FFB606;
+        width: 50px;
+        height: 3px;
+        display: inline-block;
+    }
+}
   button {
     border: none;
     color: white;
@@ -27,15 +43,15 @@
       
     }
     .card-body {
-        
         .card-body-img {
             border-radius: 50%;
+
           }
         .price {
           background: #ffb606;
           color: white;
-         width: 50%;
-     
+         width: 20%;
+     padding: 10px 0;
         }
       
       }

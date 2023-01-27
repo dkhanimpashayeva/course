@@ -60,19 +60,19 @@ getData()
      
 <h1>Add Data</h1>
       <input {...register("url", { required: true })}  onChange={handleChange} name="url"  type="url" value={input.url}/>
-      {errors.url && <p>{errors.url.message}</p>}
+      {errors.url && <span>{errors.url.message}</span>}
 
       <input {...register("courseName", { required: true })}  onChange={handleChange} name="courseName"   value={input.courseName}/>
-      {errors.courseName && <p>{errors.courseName.message}</p>}
+      {errors.courseName && <span>{errors.courseName.message}</span>}
 
       <input {...register("teacherName", { required: true })}  onChange={handleChange} name="teacherName"   value={input.teacherName}/>
-      {errors.teacherName && <p>{errors.teacherName.message}</p>}
+      {errors.teacherName && <span>{errors.teacherName.message}</span>}
 
       <input {...register("teacherImg", { required: true })} type='url'  onChange={handleChange} name="teacherImg"   value={input.teacherImg}/>
-      {errors.teacherImg && <p>{errors.teacherImg.message}</p>}
+      {errors.teacherImg && <span>{errors.teacherImg.message}</span>}
 
       <input {...register("price", { required: true })}  onChange={handleChange} name="price"   value={input.price}/>
-      {errors.price && <p>{errors.price.message}</p>}
+      {errors.price && <span>{errors.price.message}</span>}
 
       <input type="submit" />
     </form>

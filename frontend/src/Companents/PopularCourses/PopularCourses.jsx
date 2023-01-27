@@ -40,6 +40,7 @@ const PopularCourses = () => {
         <hr />
         <h2>Popular Courses</h2>
       </div>
+ 
       <button onClick={() => sortedData()}>Sort for price</button>
       <input type="search" onChange={(e) => setSearch(e.target.value)} />
       <div className="container">
@@ -71,7 +72,7 @@ const PopularCourses = () => {
                   <span>
                         <img className="card-body-image" src={course.teacherImg} alt="teacher" />
                       </span>
-                      <span className="price">{course.price}</span>
+                      <span className="price">{course.price}$</span>
                   </div>
                     </div>
                     <button onClick={() => deleteData(course._id)}>

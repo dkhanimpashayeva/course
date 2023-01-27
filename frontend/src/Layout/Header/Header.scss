@@ -2,9 +2,15 @@ nav {
   width: 90%;
   margin: 0% auto;
   padding: 30px;
+  position: fixed;
+  z-index: 999;
+  top:0;
+  left: 0%;
+  right: 0%;
   .nav-left-side{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 30px 0;
+    background-color: white;
 
     width: 80%;
     .nav-logo{
@@ -29,7 +35,7 @@ nav {
   .nav-phone{
     width: 20%;
     background-color: #FFB606;
-        padding: 40px 0;
+        padding: 42px 0;
         span{
             margin-left: 30px;
             color: white;
